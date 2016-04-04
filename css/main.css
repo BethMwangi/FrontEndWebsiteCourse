@@ -22,6 +22,11 @@
     background-color: brown;
     float: right;
 }
+.top-name {
+    margin-top: 10px;
+    float: right;
+    margin-right: 30px;
+}
 #gallery {
     width: 700px;
     height: 600px;
