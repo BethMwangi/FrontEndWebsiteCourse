@@ -11,14 +11,20 @@
     background-color: aliceblue;
 }
 #sidebar {
-    width: 300px;
+    width: 200px;
     height: 800px;
     float: left;
     background-color: darkslateblue;
 }
 #topbar {
-    width: 600px;
+    width: 700px;
     height: 200px;
     background-color: brown;
     float: right;
+}
+#gallery {
+    width: 700px;
+    height: 600px;
+    float: right;
+    clear: both;
 }
