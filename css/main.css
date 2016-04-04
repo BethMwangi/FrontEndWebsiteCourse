@@ -35,7 +35,16 @@
     text-decoration: none;
     padding: 20px;
     color: snow;
+    font-size: 20px;
+}
+.fa-ul li a:hover {
+    color: dimgrey;
 }
 .fa-ul li {
     margin-bottom: 15px;
+}
+.dropbox {
+    text-align: center;
+    padding-top: 5px;
+    color: #3d9ae8;
 }
