@@ -16,3 +16,9 @@
     float: left;
     background-color: darkslateblue;
 }
+#topbar {
+    width: 600px;
+    height: 200px;
+    background-color: brown;
+    float: right;
+}
