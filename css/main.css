@@ -28,3 +28,14 @@
     float: right;
     clear: both;
 }
+.fa-ul {
+    text-decoration: none;
+}
+.fa-ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: snow;
+}
+.fa-ul li {
+    margin-bottom: 15px;
+}
