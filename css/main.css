@@ -30,12 +30,22 @@
 .button-nav ul li {
     text-decoration: none;
 }
+
+/* Gallery items */
+
 #gallery {
     width: 700px;
     height: 600px;
     float: right;
     clear: both;
+    margin: o auto;
 }
+ul {
+    list-style-type: none;
+}
+
+/*  End Gallery items */
+
 .fa-ul {
     text-decoration: none;
 }
