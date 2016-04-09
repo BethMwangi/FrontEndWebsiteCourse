@@ -15,9 +15,10 @@
     height: 800px;
     float: left;
     background-color: darkslateblue;
+    padding-left: 3px;
 }
 #topbar {
-    width: 700px;
+    width: 695px;
     height: 200px;
     background-color: brown;
     float: right;
@@ -28,14 +29,14 @@
     margin-right: 30px;
 }
 .button-nav ul li {
-    text-decoration: none;
+    list-style-type: none;
 }
-
+.button-nav ul li
 /* Gallery items */
 
 #gallery {
     width: 700px;
-    height: 600px;
+    height: 800px;
     float: right;
 }
 #gallery ul {
@@ -51,7 +52,7 @@ p {
 }
 img {
     width: 120px;
-    height: 120px;
+    height: 100px;
 }
 .fa-ul {
     text-decoration: none;
