@@ -37,19 +37,22 @@
     width: 700px;
     height: 600px;
     float: right;
-    clear: both;
-    margin: o auto;
 }
-ul {
+#gallery ul {
     list-style-type: none;
 }
-ul li {
+.image-items li {
     text-decoration: none;
     display: inline-block;
 }
-
-/*  End Gallery items */
-
+#gallery h4,
+p {
+    font-size: 10px;
+}
+img {
+    width: 120px;
+    height: 120px;
+}
 .fa-ul {
     text-decoration: none;
 }
@@ -60,7 +63,7 @@ ul li {
     font-size: 20px;
 }
 .fa-ul li a:hover {
-    color: dimgrey;
+    color: crimson;
 }
 .fa-ul li {
     margin-bottom: 15px;
