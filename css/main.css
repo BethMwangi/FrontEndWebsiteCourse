@@ -15,10 +15,9 @@
     height: 800px;
     float: left;
     background-color: darkslateblue;
-    padding-left: 3px;
 }
 #topbar {
-    width: 695px;
+    width: 700px;
     height: 200px;
     background-color: brown;
     float: right;
@@ -28,10 +27,38 @@
     float: right;
     margin-right: 30px;
 }
-.button-nav ul li {
+.nav-bar ul {
     list-style-type: none;
 }
-.button-nav ul li
+.nav-bar ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    float: right;
+    padding-right: 10px;
+    padding-top: 50px;
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 13px;
+}
+#navigation .active a {
+    border-color: black;
+    background-color: black;
+    border-radius: 3px;
+    color: snow;
+}
+#navigation a:hover {
+    border-color: black;
+    background-color: black;
+    border-radius: 3px;
+    color: snow;
+}
+.photo {
+    font-size: 13px;
+}
+
 /* Gallery items */
 
 #gallery {
@@ -59,7 +86,6 @@ img {
 }
 .fa-ul li a {
     text-decoration: none;
-    padding: 20px;
     color: snow;
     font-size: 20px;
 }
