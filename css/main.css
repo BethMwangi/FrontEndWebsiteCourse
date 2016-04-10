@@ -14,7 +14,7 @@
     width: 200px;
     height: 800px;
     float: left;
-    background-color: darkslateblue;
+    background-color: #113b65;
 }
 .button {
     width: 170px;
@@ -30,17 +30,20 @@
     font-size: 15px;
     padding-bottom: 25px;
     padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 #topbar {
     width: 700px;
     height: 200px;
-    background-color: brown;
+    background-color: snow;
     float: right;
 }
 .top-name {
     margin-top: 10px;
     float: right;
     margin-right: 30px;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /***** search icon ****/
@@ -58,6 +61,7 @@
     background: #2b303b;
     border: none;
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
     float: left;
     color: #63717f;
     padding-left: 40px;
@@ -110,7 +114,7 @@
     text-decoration: none;
     color: black;
     font-size 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 #navigation .active a {
     border-color: black;
@@ -162,15 +166,23 @@ img {
 }
 .fa-ul li a {
     text-decoration: none;
+    color: #6684a3;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 8px;
+}
+.fa-ul .fa {
+    color: #3d9ae8;
+}
+.fa-ul .fa:hover {
     color: snow;
-    font-size: 20px;
-    margin-left: 6px;
 }
 .fa-ul li a:hover {
-    color: crimson;
+    color: snow;
 }
 .fa-ul li {
     margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .dropbox {
     text-align: center;
