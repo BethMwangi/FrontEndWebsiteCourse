@@ -21,14 +21,15 @@
     height: 40px;
     border-radius: 6px;
     border: 1px solid #3d9ae8;
-    margin-top: 400px;
+    margin-top: 350px;
     margin-left: 6px;
+    text-align: center;
 }
 .button p {
     color: snow;
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 25px;
-    padding-left: 7px;
+    padding-left: 10px;
 }
 #topbar {
     width: 700px;
@@ -43,6 +44,10 @@
 }
 .nav-bar ul {
     list-style-type: none;
+}
+.fa {
+    margin-top: 10px;
+    float: left;
 }
 #navigation li {
     text-decoration: none;
@@ -104,11 +109,13 @@ img {
 }
 .fa-ul {
     text-decoration: none;
+    margin-top: 150px;
 }
 .fa-ul li a {
     text-decoration: none;
     color: snow;
     font-size: 20px;
+    margin-left: 6px;
 }
 .fa-ul li a:hover {
     color: crimson;
@@ -120,4 +127,5 @@ img {
     text-align: center;
     padding-top: 5px;
     color: #3d9ae8;
+    padding-left: 40px;
 }
